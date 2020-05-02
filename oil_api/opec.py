@@ -61,7 +61,7 @@ oil_prices = Flow(
         format='xls',
         sheet=6,
         skip_rows=[1,2,3,4,5,6],
-        headers=[' ','Country','2017','2018','2019','Change 19/20','2Q19','3Q19','4Q19','1Q20','Feb20','Mar20','Change Mar/Feb']
+        headers=[' ','Country','2017','2018','2019','Change 19/18','2Q19','3Q19','4Q19','1Q20','Feb20','Mar20','Change Mar/Feb']
     ),
     rename_resources,
     validate(),
