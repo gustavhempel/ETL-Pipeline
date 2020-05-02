@@ -2,7 +2,7 @@
   "bytes": 26479,
   "count_of_rows": 194,
   "descriptor": "A variety of temporal granularities for Europe Brent and WTI (West Texas Intermediate) Spot Prices.",
-  "hash": "16a59487c79e8c75db74d1148c63cb11",
+  "hash": "acd377a8cc8f202f49db00b955e0783a",
   "name": "Opec_data",
   "profile": "data-package",
   "resources": [
@@ -393,7 +393,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "hash": "10092b16360708abb87e02570643e8a8",
+      "hash": "fe70e50621ae779e027faf6668dba983",
       "name": "glb_rig_count",
       "path": "data/glb_rig_count.csv",
       "profile": "tabular-data-resource",
@@ -434,7 +434,7 @@
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Change 19/20",
+            "name": "Change 19/18",
             "type": "number"
           },
           {
