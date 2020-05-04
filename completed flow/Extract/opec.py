@@ -6,13 +6,13 @@ from dataflows import add_metadata, dump_to_path, load, set_type, printer
 
 def rename_resources(package: PackageWrapper):
     package.pkg.descriptor['resources'][0]['name'] = 'opec_supply_demand'
-    package.pkg.descriptor['resources'][0]['path'] = 'data/opec_supply_demand.csv'
+    package.pkg.descriptor['resources'][0]['path'] = 'opec_supply_demand.csv'
     package.pkg.descriptor['resources'][1]['name'] = 'opec_storage_water'
-    package.pkg.descriptor['resources'][1]['path'] = 'data/opec_storage_water.csv'
+    package.pkg.descriptor['resources'][1]['path'] = 'opec_storage_water.csv'
     package.pkg.descriptor['resources'][2]['name'] = 'oil_liquid_production'
-    package.pkg.descriptor['resources'][2]['path'] = 'data/oil_liquid_production.csv'
+    package.pkg.descriptor['resources'][2]['path'] = 'oil_liquid_production.csv'
     package.pkg.descriptor['resources'][3]['name'] = 'glb_rig_count'
-    package.pkg.descriptor['resources'][3]['path'] = 'data/glb_rig_count.csv'
+    package.pkg.descriptor['resources'][3]['path'] = 'glb_rig_count.csv'
 
     yield package.pkg
     res_iter = iter(package)

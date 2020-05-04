@@ -6,9 +6,9 @@ from dataflows import add_metadata, dump_to_path, load, set_type, printer
 
 def rename_resources(package: PackageWrapper):
     package.pkg.descriptor['resources'][0]['name'] = 'brent-daily'
-    package.pkg.descriptor['resources'][0]['path'] = 'oil_api/data/brent_daily.csv'
+    package.pkg.descriptor['resources'][0]['path'] = 'brent_daily.csv'
     package.pkg.descriptor['resources'][1]['name'] = 'wti-daily'
-    package.pkg.descriptor['resources'][1]['path'] = 'oil_api/data/wti_daily.csv'
+    package.pkg.descriptor['resources'][1]['path'] = 'wti_daily.csv'
 
 
     yield package.pkg
@@ -89,7 +89,7 @@ oil_prices = Flow(
     validate(),
     printer(),
     filter_out_empty_rows,
-    dump_to_path('prices'),
+    dump_to_path('oil_prices'),
 )
 
 
