@@ -9,5 +9,7 @@ The main data sets are covering teh following data:
  --> Proven Oil Reserves
  
  This is a growing Data base. We are trying to create an ETL that keeps on pulling new data.
+
+ To execute the full Pipeline please run etl_script.sh.
  
  
